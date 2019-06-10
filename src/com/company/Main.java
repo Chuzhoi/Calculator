@@ -17,11 +17,10 @@ public class Main {
             "LXXX", "LXXXI", "LXXXII", "LXXXIII", "LXXXIV", "LXXXV", "LXXXVI", "LXXXVII", "LXXXVIII", "LXXXIX",
             "XC", "XCI", "XCII", "XCIII", "XCIV", "XCV", "XCVI", "XCVII", "XCVIII", "XCIX", "C"};
     private static boolean isRoman = false;
-    private static boolean isArabic = false;
 
 
     public static void main(String[] args) throws IOException {
-        int numbers[];
+        int[] numbers;
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 
         String expression = reader.readLine();
@@ -41,8 +40,8 @@ public class Main {
 
     }
 
-    public static String expressionSplit(String expression) throws WrongExpressionFormat {
-        String subStr[];
+    private static String expressionSplit(String expression) throws WrongExpressionFormat {
+        String[] subStr;
         String type = null;
         if (expression.contains("/")) {
             subStr = expression.split("/");
@@ -73,11 +72,11 @@ public class Main {
         else throw new WrongExpressionFormat("Wrong expression!");
     }
 
-    public static boolean isExpression(String[] subStr) throws WrongExpressionFormat  {
+    private static boolean isExpression(String[] subStr) throws WrongExpressionFormat  {
 
         int compCount = 0;
         if (subStr.length == 2) {
-            String comp = null;
+            String comp;
             for (int n = 0; n < 2; n++) {
                 for (int i = 1; i < 11; i++) {
                     comp = String.valueOf(i);
@@ -85,7 +84,6 @@ public class Main {
                         compCount++;
                 }
             }
-            isArabic = true;
             if (compCount == 0) {
                 for (int n = 0; n < 2; n++) {
                     for (int i = 1; i < 11; i++) {
@@ -102,9 +100,9 @@ public class Main {
         return  compCount == 2;
     }
 
-    public static int[] getNumbers(String expression, String type) {
+    private static int[] getNumbers(String expression, String type) {
         int[] result = new int[2];
-        String subStr[] = expression.split(type);
+        String[] subStr = expression.split(type);
 
         try {
             for (int i = 0; i < 2; i++)
@@ -121,7 +119,7 @@ public class Main {
         return result;
     }
 
-    public static int arabicImplementation(int[] numbers, String type) {
+    private static int arabicImplementation(int[] numbers, String type) {
         int result = 0;
         switch (type) {
             case "\\+":
@@ -140,14 +138,14 @@ public class Main {
         return result;
     }
 
-    public static String romanImplementation(int[] numbers, String type) {
+    private static String romanImplementation(int[] numbers, String type) {
         int auxResult = arabicImplementation(numbers, type);
         if (auxResult < 0)
             return "-" + roman[-auxResult];
         else return roman[auxResult];
     }
 
-    public static String implementation(int[] numbers, String type) {
+    private static String implementation(int[] numbers, String type) {
         if (isRoman)
             return String.valueOf(romanImplementation(numbers,type));
         else
@@ -156,7 +154,7 @@ public class Main {
 
 
     public static class WrongExpressionFormat extends Exception {
-        public WrongExpressionFormat(String message) {
+        WrongExpressionFormat(String message) {
             super(message);
         }
     }
