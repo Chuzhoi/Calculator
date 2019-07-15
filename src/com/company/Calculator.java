@@ -1,7 +1,7 @@
 package com.company;
 
 
-public class Calculator {
+class Calculator {
 
     private static String[] roman = new String []{"N", "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX",
             "X", "XI", "XII", "XIII", "XIV", "XV", "XVI", "XVII", "XVIII", "XIX",
