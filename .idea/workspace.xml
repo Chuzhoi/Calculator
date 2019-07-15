@@ -1,13 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="77e3af92-63a2-4e42-a4dd-5c22c058e27f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/company/MainTest.java" afterDir="false" />
+    <list default="true" id="77e3af92-63a2-4e42-a4dd-5c22c058e27f" name="Default Changelist" comment="Rewrited code">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Calculator.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Calculator.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Calculator/com/company/Main$WrongExpressionFormat.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Calculator/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Calculator/com/company/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -232,12 +227,34 @@
       <workItem from="1560153465735" duration="787000" />
       <workItem from="1560154306194" duration="15000" />
       <workItem from="1560170333942" duration="98000" />
-      <workItem from="1563098389639" duration="10620000" />
+      <workItem from="1563098389639" duration="11519000" />
     </task>
+    <task id="LOCAL-00001" summary="Rewrited code">
+      <created>1563110940835</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1563110940835</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Rewrited code">
+      <created>1563110994461</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1563110994461</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Rewrited code">
+      <created>1563111102042</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1563111102042</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27568000" />
+    <option name="totallyTimeSpent" value="28467000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -250,7 +267,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20196672" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -261,15 +277,15 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3289689" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39934534" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3289689" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="11" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.3289689" />
+      <window_info anchor="bottom" id="Version Control" order="11" weight="0.3289689" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.3289689" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -282,6 +298,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Rewrited code" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rewrited code" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

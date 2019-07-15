@@ -44,7 +44,7 @@ public class Calculator {
         private String[] parseNumbers(String expression, ArithmeticOperation operation) throws Exception {
             String[] numbers = expression.split(operation.screenedValue());
             if (numbers.length != 2)
-                throw new Exception("Something went wrong!");
+                throw new Exception("Something went wrong during parsing");
             return numbers;
 
         }
